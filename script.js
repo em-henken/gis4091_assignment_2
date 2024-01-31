@@ -1,9 +1,8 @@
 
 
  require([
-        "esri/Map",
+        "esri/WebMap",
         "esri/views/MapView",
-        "esri/WebMap" ,
       ], function (WebMap, MapView) {
    
           const webmap = new WebMap({
